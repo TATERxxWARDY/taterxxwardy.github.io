@@ -1,0 +1,7 @@
+C:\Sites\taterxxwardy.github.io\nate-ward.com\nate-ward.com\Shared\bin\Release\netstandard2.0\nate-ward.com.Shared.deps.json
+C:\Sites\taterxxwardy.github.io\nate-ward.com\nate-ward.com\Shared\bin\Release\netstandard2.0\nate-ward.com.Shared.dll
+C:\Sites\taterxxwardy.github.io\nate-ward.com\nate-ward.com\Shared\bin\Release\netstandard2.0\nate-ward.com.Shared.pdb
+C:\Sites\taterxxwardy.github.io\nate-ward.com\nate-ward.com\Shared\obj\Release\netstandard2.0\nate-ward.com.Shared.AssemblyInfoInputs.cache
+C:\Sites\taterxxwardy.github.io\nate-ward.com\nate-ward.com\Shared\obj\Release\netstandard2.0\nate-ward.com.Shared.AssemblyInfo.cs
+C:\Sites\taterxxwardy.github.io\nate-ward.com\nate-ward.com\Shared\obj\Release\netstandard2.0\nate-ward.com.Shared.dll
+C:\Sites\taterxxwardy.github.io\nate-ward.com\nate-ward.com\Shared\obj\Release\netstandard2.0\nate-ward.com.Shared.pdb
