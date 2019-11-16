@@ -127,4 +127,3 @@ C:\Sites\taterxxwardy.github.io\nate-ward.com\nate-ward.com\obj\Release\netstand
 C:\Sites\taterxxwardy.github.io\nate-ward.com\nate-ward.com\obj\Release\netstandard2.0\blazor\linker\nate-ward.com.pdb
 C:\Sites\taterxxwardy.github.io\nate-ward.com\nate-ward.com\obj\Release\netstandard2.0\blazor\inputs.bootjson.cache
 C:\Sites\taterxxwardy.github.io\nate-ward.com\nate-ward.com\obj\Release\netstandard2.0\blazor\blazor.boot.json
-C:\Sites\taterxxwardy.github.io\nate-ward.com\nate-ward.com\obj\Release\netstandard2.0\nate-ward.com.csprojAssemblyReference.cache
