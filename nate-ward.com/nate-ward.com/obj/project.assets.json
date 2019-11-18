@@ -2,6 +2,12 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "BlazorPWA.MSBuild/1.0.1": {
+        "type": "package",
+        "build": {
+          "build/BlazorPWA.MSBuild.targets": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/3.0.0-preview9.19424.4": {
         "type": "package",
         "dependencies": {
@@ -335,6 +341,35 @@
     }
   },
   "libraries": {
+    "BlazorPWA.MSBuild/1.0.1": {
+      "sha512": "5prw5cPV+FrMdiqY1w5Nx7vsWbMJlyQIqYhuL0wsf70ltYDlDrMaf1npKnAE8lt44QV1y0/EPGz4zG3YzvF2/w==",
+      "type": "package",
+      "path": "blazorpwa.msbuild/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Blazor.PWA.MSBuild-NuGet-Icon.png",
+        "LICENSE.txt",
+        "README.md",
+        "Templates/ServiceWorker/sw_fetch-none.template.js",
+        "Templates/ServiceWorker/sw_fetch-offline-first.template.js",
+        "Templates/ServiceWorker/sw_install.template.js",
+        "Templates/ServiceWorker/sw_register-beforeinstallprompt.template.js",
+        "Templates/ServiceWorker/sw_register-installable-banner.template.js",
+        "Templates/ServiceWorker/sw_register-installable-blazor.template.js",
+        "Templates/ServiceWorker/sw_register-update-alert.template.js",
+        "Templates/ServiceWorker/sw_register.template.js",
+        "Templates/default-icon-192x192.png",
+        "Templates/default-icon-512x512.png",
+        "blazorpwa.msbuild.1.0.1.nupkg.sha512",
+        "blazorpwa.msbuild.nuspec",
+        "build/BlazorPWA.MSBuild.Manifest.targets",
+        "build/BlazorPWA.MSBuild.ServiceWorker.targets",
+        "build/BlazorPWA.MSBuild.ServiceWorkerRegister.targets",
+        "build/BlazorPWA.MSBuild.targets",
+        "tasks/netstandard1.6/Blazor.PWA.MSBuild.Tasks.dll"
+      ]
+    },
     "Microsoft.AspNetCore.Authorization/3.0.0-preview9.19424.4": {
       "sha512": "GdKUkS36YPrJvmpQdpKCkoE4NtwCDHmPOAZy1ws/oyB+in7SrTD/b/K9TzV8QX3OUZWJzf5dJcuhyWp/jvPrwA==",
       "type": "package",
@@ -1427,6 +1462,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "BlazorPWA.MSBuild >= 1.0.1",
       "Microsoft.AspNetCore.Blazor >= 3.0.0-preview9.19424.4",
       "Microsoft.AspNetCore.Blazor.Build >= 3.0.0-preview9.19424.4",
       "Microsoft.AspNetCore.Blazor.DevServer >= 3.0.0-preview9.19424.4",
@@ -1475,6 +1511,12 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "BlazorPWA.MSBuild": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.0.1, )"
+          },
           "Microsoft.AspNetCore.Blazor": {
             "target": "Package",
             "version": "[3.0.0-preview9.19424.4, )"

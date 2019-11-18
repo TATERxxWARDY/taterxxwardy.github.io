@@ -5,9 +5,10 @@
 </div>
 
 <div class="main">
-    <div class="top-row px-4">
-        <a href="http://blazor.net" target="_blank" class="ml-md-auto">About Blazor</a>
-    </div>
+    <div class="top-row px-4
+            justify-content-end">
+        <a href="http://blazor.net" target="_blank" class="ml-md-3" onclick="addToHomeScreen()">Install</a>
+    <a href="http://blazor.net" target="_blank" class="ml-md-3" onclick="hideAddToHomeScreen()">About Blazor</a></div>
 
     <div class="content px-4">
         @Body
